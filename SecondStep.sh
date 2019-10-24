@@ -17,7 +17,7 @@
 #workon deep_learning
 
 #workon dl
-pip3 install numpy
+sudo pip3 install numpy
 
 
 # When I wrote this script, the latest link is:
@@ -25,10 +25,10 @@ pip3 install numpy
 # please check https://developer.download.nvidia.com/compute/redist/jp/   
 # when you do your own version.
 
+wget https://developer.download.nvidia.com/compute/redist/jp/v42/tensorflow-gpu/tensorflow_gpu-1.14.0+nv19.9-cp36-cp36m-linux_aarch64.whl
+sudo pip3 install tensorflow_gpu-1.14.0+nv19.9-cp36-cp36m-linux_aarch64.whl
 
-pip3 install --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v42/tensorflow-gpu/tensorflow_gpu-1.14.0+nv19.9-cp36-cp36m-linux_aarch64.whl
-
-pip3 install scipy
-pip3 install keras
+sudo pip3 install scipy
+sudo pip3 install keras
 
 #
