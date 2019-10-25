@@ -9,14 +9,15 @@
 #I prefer using dl instead deep_learning.
 #mkvirtualenv deep_learning -p python3
 
-#mkvirtualenv dl -p python3
+mkvirtualenv dl -p python3
 
 
 
 # Install Tensorflow and Keras
 #workon deep_learning
 
-#workon dl
+workon dl
+
 sudo pip3 install numpy
 
 
